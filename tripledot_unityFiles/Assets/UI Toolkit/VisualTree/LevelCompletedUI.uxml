@@ -1,0 +1,29 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="LevelCompletedAnim" src="project://database/Assets/UI%20Toolkit/LevelCompleted/LevelCompletedAnim.uxml?fileID=9197481963319205126&amp;guid=58d1610aabb349f49a6118008b4a142c&amp;type=3#LevelCompletedAnim" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/LevelCompleted.uss?fileID=7433441132597879392&amp;guid=24465a88195b59349aee3bae61382f5d&amp;type=3#LevelCompleted" />
+    <ui:VisualElement style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+        <ui:Instance template="LevelCompletedAnim" name="TemplateContainer" style="height: 200px; position: relative; top: 200px; left: 210px; right: 0; bottom: auto; flex-grow: 1; visibility: visible; display: flex;" />
+        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Rectangle-11-copy-17.png?fileID=2800000&amp;guid=df7ec40be9c92ce46acaaf69906f04e0&amp;type=3#Rectangle-11-copy-17&quot;); padding-top: 50%; padding-right: 10%; padding-bottom: 15%; padding-left: 10%; -unity-background-scale-mode: scale-and-crop; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            <ui:VisualElement style="flex-grow: 1; height: 850px;">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/_star.png?fileID=-703179262237173728&amp;guid=5ff62058c4e92a548a11c5ee4a6a4a51&amp;type=3#_star_0&quot;); -unity-background-scale-mode: scale-to-fit; background-position-y: center 0; width: auto; background-position-x: center 0; align-self: stretch; align-items: center; justify-content: flex-start; align-content: auto; position: absolute; top: -170px; left: 0; right: 0; bottom: 0;" />
+                <ui:Label text="250" name="Label" style="padding-left: 10px; -unity-text-align: lower-center; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 200px; -unity-text-outline-width: 9px; -unity-text-outline-color: rgb(25, 25, 112); flex-direction: column; align-content: flex-end; bottom: 0; margin-left: 10px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; -unity-font-definition: url(&quot;project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&amp;guid=5b0caedb56d1b774ea9d6c8f69fe1c54&amp;type=3#Lato-Black&quot;); text-shadow: 5px 15px 5px rgba(0, 0, 0, 0.42); display: flex; visibility: visible; position: absolute; top: 0; left: 0; right: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; justify-content: space-evenly; align-content: auto; margin-right: 125px; margin-top: 20px; margin-bottom: 20px; margin-left: 125px;">
+                <ui:VisualElement name="VisualElement" class="RewardIcon" style="background-image: url(&quot;project://database/Assets/UI/homepage/coins.png?fileID=8003260396191338441&amp;guid=485b9c1c155c2a544ae0f39a36b93a05&amp;type=3#coins_0&quot;); background-size: contain;">
+                    <ui:Label text="100" class="RewardValue" />
+                </ui:VisualElement>
+                <ui:VisualElement class="RewardIcon" style="background-image: url(&quot;project://database/Assets/UI/crown.png?fileID=-8222406987496834216&amp;guid=28da9839509a7cd48a1203791080eb9c&amp;type=3#crown_0&quot;);">
+                    <ui:Label text="8" class="RewardValue" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="position: relative; top: 0; left: 0; right: 0; bottom: 0; background-size: contain; width: 100%; height: 330px; flex-direction: row;">
+                <ui:Button double-click-selects-word="false" icon-image="project://database/Assets/UI/home-icn.png?fileID=2800000&amp;guid=54e5f94f048a9524c9f6ea09df9cab93&amp;type=3#home-icn" name="homeButton" class="homeButton" />
+                <ui:VisualElement name="VisualElement" style="align-items: stretch; align-self: stretch;">
+                    <ui:Button text="+ 300" emoji-fallback-support="true" enable-rich-text="true" enabled="true" class="rewardButton" />
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/homepage/coins.png?fileID=8003260396191338441&amp;guid=485b9c1c155c2a544ae0f39a36b93a05&amp;type=3#coins_0&quot;); -unity-background-scale-mode: scale-to-fit; height: 60%; background-position-x: left 0; left: 123px; align-items: stretch; align-self: stretch; position: absolute; top: 80px; right: 0; bottom: 0; justify-content: flex-start;" />
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/play.png?fileID=2800000&amp;guid=5e8d18501005c8a46903678baa4080bb&amp;type=3#play&quot;); -unity-background-scale-mode: scale-to-fit; background-position-y: center 0; background-position-x: right 0; align-self: stretch; flex-direction: column; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; top: 0; position: absolute; left: 0; right: 0; bottom: 0; height: 140px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/LevelCompleted.uss?fileID=7433441132597879392&amp;guid=24465a88195b59349aee3bae61382f5d&amp;type=3#LevelCompleted" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+        <ui:VisualElement name="LevelCompleted" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/_Level-Completed!.png?fileID=2800000&amp;guid=bdc94932814dfdc4db9c62e855249f7d&amp;type=3#_Level-Completed!&quot;); -unity-background-scale-mode: scale-to-fit; flex-direction: row; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; position: absolute; top: 50px; left: 81px; right: 0; bottom: auto; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 1347px; background-position-x: center 0; background-position-y: top 0; height: 565px;" />
+        <ui:VisualElement name="sparkle1" class="TitleSparkle" style="left: 333px; top: 100px;" />
+        <ui:VisualElement name="sparkle2" class="TitleSparkle" style="left: 1006px; top: 12px;" />
+        <ui:VisualElement name="sparkle3" class="TitleSparkle" style="top: 296px; left: 81px;" />
+        <ui:VisualElement name="sparkle4" class="TitleSparkle" style="top: 517px; left: 13px;" />
+        <ui:VisualElement name="sparkle5" class="TitleSparkle" style="left: 577px; top: 347px;" />
+        <ui:VisualElement name="sparkle6" class="TitleSparkle" style="left: 1093px; top: 263px;" />
+        <ui:VisualElement name="sparkle7" class="TitleSparkle" style="left: 1509px; top: 386px;" />
+        <ui:VisualElement name="sparkle8" class="TitleSparkle" style="top: 479px; left: 1377px;" />
+        <ui:VisualElement name="sparkle9" class="TitleSparkle" style="left: 1378px; top: 285px;" />
+    </ui:VisualElement>
+</ui:UXML>

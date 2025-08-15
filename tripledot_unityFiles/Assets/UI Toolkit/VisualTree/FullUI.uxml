@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="LevelCompletedUI" src="project://database/Assets/UI%20Toolkit/VisualTree/LevelCompletedUI.uxml?fileID=9197481963319205126&amp;guid=928750fc7d90bc841a70f3ab1f934cfe&amp;type=3#LevelCompletedUI" />
+    <ui:Template name="HomeFullUI" src="project://database/Assets/UI%20Toolkit/VisualTree/HomeFullUI.uxml?fileID=9197481963319205126&amp;guid=fc0a882bc00834640baeb2a7eaa975a9&amp;type=3#HomeFullUI" />
+    <ui:Template name="SettingsPopupUI" src="project://database/Assets/UI%20Toolkit/VisualTree/SettingsPopupUI.uxml?fileID=9197481963319205126&amp;guid=0ebdb1d1be06a1a468aaa816a2ae5eb1&amp;type=3#SettingsPopupUI" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/LevelCompleted.uss?fileID=7433441132597879392&amp;guid=24465a88195b59349aee3bae61382f5d&amp;type=3#LevelCompleted" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/SettingsPopup.uss?fileID=7433441132597879392&amp;guid=1b009e1e0ac5c9649bb446eee7ae4ae6&amp;type=3#SettingsPopup" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/HomeFooter.uss?fileID=7433441132597879392&amp;guid=f1c529444f0018e40b672cf6e43e3d0f&amp;type=3#HomeFooter" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/HomeHeader.uss?fileID=7433441132597879392&amp;guid=1fab18a8c0bf6eb49a6d3f8f4e2bafe2&amp;type=3#HomeHeader" />
+    <Style src="project://database/Assets/ScreenUI.uss?fileID=7433441132597879392&amp;guid=69a131fbaa234b84a80ba6838c2fde5c&amp;type=3#ScreenUI" />
+    <ui:Instance template="SettingsPopupUI" name="SettingsScreen" class="screen" />
+    <ui:Instance template="LevelCompletedUI" name="LevelCompletedScreen" class="screen" />
+    <ui:Instance template="HomeFullUI" name="HomeScreen" class="screen" />
+</ui:UXML>

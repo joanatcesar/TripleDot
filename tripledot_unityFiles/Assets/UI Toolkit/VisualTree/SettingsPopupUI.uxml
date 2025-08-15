@@ -1,0 +1,51 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="SlideToggleUsage" src="project://database/Assets/UI%20Toolkit/slide-toggle/SlideToggleUsage.uxml?fileID=9197481963319205126&amp;guid=4cafea088216c31488ef6a4f046402d3&amp;type=3#SlideToggleUsage" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/SettingsPopup.uss?fileID=7433441132597879392&amp;guid=1b009e1e0ac5c9649bb446eee7ae4ae6&amp;type=3#SettingsPopup" />
+    <ui:VisualElement name="blackScreen" class="blackScreen">
+        <ui:VisualElement name="settingsBox" class="settingsBox">
+            <ui:VisualElement name="contentBox" class="contentBox">
+                <ui:VisualElement name="soundRow" class="contentContainer">
+                    <ui:VisualElement class="contentIcon soundIcon" />
+                    <ui:Label text="LOCALIZE_Sound" class="contentText" />
+                    <ui:Instance template="SlideToggleUsage" class="toggleButton" />
+                </ui:VisualElement>
+                <ui:VisualElement class="contentDivider divider1" />
+                <ui:VisualElement name="musicRow" class="contentContainer">
+                    <ui:VisualElement class="contentIcon musicIcon" />
+                    <ui:Label text="LOCALIZE_Music" class="contentText" />
+                    <ui:Instance template="SlideToggleUsage" class="toggleButton" />
+                </ui:VisualElement>
+                <ui:VisualElement class="contentDivider divider2" />
+                <ui:VisualElement name="vibrationRow" class="contentContainer">
+                    <ui:VisualElement class="contentIcon vibrationIcon" />
+                    <ui:Label text="LOCALIZE_Vibration" class="contentText" />
+                    <ui:Instance template="SlideToggleUsage" class="toggleButton" />
+                </ui:VisualElement>
+                <ui:VisualElement class="contentDivider divider3" />
+                <ui:VisualElement name="notificationRow" class="contentContainer">
+                    <ui:VisualElement class="contentIcon notificationIcon" />
+                    <ui:Label text="LOCALIZE_Notification" class="contentText" />
+                    <ui:Instance template="SlideToggleUsage" class="toggleButton" />
+                </ui:VisualElement>
+                <ui:VisualElement class="contentDivider divider4" />
+                <ui:VisualElement name="languageRow" class="contentContainer">
+                    <ui:VisualElement class="contentIcon languageIcon" />
+                    <ui:Label text="LOCALIZE_Language" class="contentText" />
+                    <ui:VisualElement class="toggleButton" style="background-image: url(&quot;project://database/Assets/UI/_Shape-3.png?fileID=2800000&amp;guid=50f672365d6ccfc4e8ee3e8ece35659e&amp;type=3#_Shape-3&quot;); -unity-background-scale-mode: scale-to-fit; background-position-x: right 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="footerBottom" class="footerBottom">
+                    <ui:Button text="LOCALIZE_T&amp;C" class="settingsButton" />
+                    <ui:Label text="LOCALIZE_Ver_1.0.0" class="versionLabel" />
+                    <ui:Button text="LOCALIZE_Privacy" class="settingsButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="footer" class="footer">
+                <ui:Button text="LOCALIZE_Support" class="supportButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="header" class="header">
+                <ui:Label text="LOCALIZE_Settings" class="TitleText" />
+            </ui:VisualElement>
+            <ui:Button name="closeButton" class="closeButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

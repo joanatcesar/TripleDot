@@ -1,0 +1,175 @@
+:root {
+}
+
+.RewardIcon {
+    -unity-background-scale-mode: scale-to-fit;
+    background-size: contain;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    width: 220px;
+    background-position-y: center 0;
+    align-self: flex-start;
+    height: 230px;
+}
+
+.RewardValue {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: rgb(25, 25, 112);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    bottom: -180px;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.39);
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.homeButton {
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-image: url("project://database/Assets/UI/Rectangle-7.png?fileID=2104775899284774551&guid=fb8c6301ef8c1854e89f153d519a59d9&type=3#Rectangle-7_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    align-self: stretch;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: auto;
+    background-size: contain;
+    background-position-x: center 0;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-slice-type: sliced;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.rewardButton {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-image: url("project://database/Assets/UI/_Rectangle-7.png?fileID=4130296200405529483&guid=31b8706ff4c643b4d99159cd1b491473&type=3#_Rectangle-7_0");
+    background-color: rgba(188, 188, 188, 0);
+    background-position-y: center 0;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-position-x: center 0;
+    flex-direction: row;
+    align-items: stretch;
+    width: 925px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(25, 25, 112);
+    -unity-text-outline-width: 5px;
+    -unity-font-style: bold;
+    font-size: 150px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    justify-content: center;
+    align-self: stretch;
+    -unity-text-align: middle-right;
+    height: 370px;
+    align-content: auto;
+    letter-spacing: -1px;
+    word-spacing: -11px;
+    -unity-paragraph-spacing: 0;
+    overflow: visible;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.39);
+    background-size: contain;
+    flex-grow: 1;
+    position: relative;
+    -unity-text-generator: advanced;
+}
+
+.TitleSparkle {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/UI/_star_04.png?fileID=2847733513458906064&guid=7f957a68e4e68964daf00b56522f22d7&type=3#_star_04_0");
+    -unity-background-scale-mode: scale-to-fit;
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 75px;
+    background-position-y: center 0;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+
+.rewardButton:hover {
+    -unity-background-image-tint-color: rgb(156, 236, 149);
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.homeButton:hover {
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-image: url("project://database/Assets/UI/Rectangle-7.png?fileID=2104775899284774551&guid=fb8c6301ef8c1854e89f153d519a59d9&type=3#Rectangle-7_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    align-self: stretch;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: auto;
+    background-size: contain;
+    background-position-x: center 0;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-slice-type: sliced;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    -unity-background-image-tint-color: rgb(190, 226, 255);
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+}

@@ -1,0 +1,132 @@
+:root {
+}
+
+.currencyContainer {
+    align-self: stretch;
+    background-image: url("project://database/Assets/UI/homepage/pill.png?fileID=1094393234852128250&guid=522e8e09a7d36414daedd7e053a2f202&type=3#pill_0");
+    -unity-background-scale-mode: scale-to-fit;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    justify-content: flex-start;
+    top: 10px;
+    height: 138px;
+    width: 370px;
+    overflow: visible;
+}
+
+.currencyValue {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    -unity-font-style: normal;
+    color: rgb(24, 88, 168);
+    font-size: 81px;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    top: -5px;
+    right: 50px;
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+}
+
+.currencyIcon {
+    flex-grow: 1;
+    position: relative;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    justify-content: center;
+    align-self: stretch;
+    align-content: stretch;
+    flex-direction: row;
+    overflow: visible;
+    height: 209px;
+    width: 118px;
+    top: -50px;
+    left: -50px;
+}
+
+.SettingsButton {
+    background-image: url("project://database/Assets/UI/homepage/round-btn_blue.png?fileID=-7375526841273004325&guid=e01161718c0fde045a21ecc6ff2d84cc&type=3#round-btn_blue_0");
+    background-position-x: center 0;
+    background-position-y: center 0;
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    width: 75px;
+    height: 170px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    align-items: auto;
+    align-self: auto;
+    align-content: stretch;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    flex-grow: 1;
+    top: 30px;
+    right: auto;
+    left: auto;
+    flex-direction: row;
+}
+
+.SettingsButton:hover {
+    background-image: url("project://database/Assets/UI/homepage/round-btn_blue.png?fileID=-7375526841273004325&guid=e01161718c0fde045a21ecc6ff2d84cc&type=3#round-btn_blue_0");
+    background-position-x: center 0;
+    background-position-y: center 0;
+    background-color: rgba(188, 188, 188, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(190, 206, 255);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.SettingsButton:active {
+    background-image: url("project://database/Assets/UI/homepage/round-btn_blue.png?fileID=-7375526841273004325&guid=e01161718c0fde045a21ecc6ff2d84cc&type=3#round-btn_blue_0");
+    background-position-x: center 0;
+    background-position-y: center 0;
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(171, 172, 255);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}

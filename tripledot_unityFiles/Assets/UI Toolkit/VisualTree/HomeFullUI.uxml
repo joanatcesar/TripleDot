@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HomeFooterUI" src="project://database/Assets/UI%20Toolkit/VisualTree/HomeFooterUI.uxml?fileID=9197481963319205126&amp;guid=3fabd70fc054c484097c7c8f4e9caf4b&amp;type=3#HomeFooterUI" />
+    <ui:Template name="HomeHeaderUI" src="project://database/Assets/UI%20Toolkit/VisualTree/HomeHeaderUI.uxml?fileID=9197481963319205126&amp;guid=bdfa35417abab34468efd993a6a38e26&amp;type=3#HomeHeaderUI" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/HomeFooter.uss?fileID=7433441132597879392&amp;guid=f1c529444f0018e40b672cf6e43e3d0f&amp;type=3#HomeFooter" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/HomeHeader.uss?fileID=7433441132597879392&amp;guid=1fab18a8c0bf6eb49a6d3f8f4e2bafe2&amp;type=3#HomeHeader" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/homepage/background.png?fileID=2800000&amp;guid=d69478c81c27aec41be4176db82bb677&amp;type=3#background&quot;); -unity-background-scale-mode: scale-and-crop; position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+    <ui:Instance template="HomeFooterUI" style="position: absolute; top: auto; left: 0; right: 0; bottom: 0;" />
+    <ui:Instance template="HomeHeaderUI" style="position: absolute; top: 0; left: 0; right: 0; bottom: auto; flex-grow: 1; margin-left: 40px; margin-right: 40px;" />
+</ui:UXML>

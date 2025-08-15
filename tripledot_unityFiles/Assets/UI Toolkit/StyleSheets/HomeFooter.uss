@@ -1,0 +1,157 @@
+:root {
+    justify-content: space-evenly;
+}
+
+.footerButton:hover {
+    background-image: url("project://database/Assets/UI/homepage/footer_button.png?fileID=2800000&guid=0a6ff5c185af2ab4a8171ba875750322&type=3#footer_button");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    align-content: auto;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-bottom: 160px;
+    padding-left: 5px;
+    flex-direction: column;
+    font-size: 85px;
+    margin-top: 0;
+    margin-bottom: -100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    justify-content: flex-start;
+    color: rgb(255, 250, 250);
+    -unity-text-outline-color: rgb(0, 0, 139);
+    -unity-text-outline-width: 4px;
+    -unity-font-style: bold;
+    text-shadow: 4px 7px 6px rgba(0, 0, 0, 0.33);
+    width: 550px;
+    white-space: nowrap;
+    text-overflow: clip;
+    -unity-text-align: upper-center;
+    height: 550px;
+    background-position-y: bottom 0%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-self: flex-end;
+    align-items: stretch;
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    -unity-slice-type: sliced;
+    background-size: 100% 95%;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.footerButton:disabled {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    flex-grow: 0;
+    font-size: 0;
+    height: 80%;
+    align-items: auto;
+    align-self: center;
+    display: flex;
+    visibility: visible;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-position-y: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-shrink: 1;
+}
+
+.footerButton {
+    height: 290px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 0%;
+    flex-grow: 1;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+    align-content: auto;
+    transition-duration: 0.1s;
+}
+
+.footer {
+    background-image: url("project://database/Assets/UI/homepage/footer.png?fileID=-4738700643318316331&guid=ed2af5b0a1f442a488dd3422803c5d99&type=3#footer_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    width: auto;
+    height: 500px;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: row;
+    align-self: stretch;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 100px;
+    -unity-text-align: upper-center;
+    padding-top: 0;
+    flex-shrink: 0;
+    transition-property: translate, translate;
+    transition-duration: 0.5s, 0.5s;
+    transition-timing-function: ease-in, ease-out;
+    transition-delay: 0s, 1s;
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footerElement {
+    background-image: url("project://database/Assets/UI/homepage/gradient.png?fileID=2800000&guid=c2c707e636bd58447ba71d03ee95f34d&type=3#gradient");
+    -unity-background-scale-mode: stretch-to-fill;
+    align-content: auto;
+    justify-content: flex-end;
+    align-self: stretch;
+    height: 680px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.79);
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    -unity-slice-type: sliced;
+    background-position-y: bottom 0;
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -125px;
+    transition-duration: 0.5s, 0.3s;
+    transition-timing-function: ease-in, ease-out;
+    transition-property: all, all;
+    transition-delay: 0s, 1s;
+    display: flex;
+    visibility: visible;
+    translate: 0 0;
+}
+
+.footerElement:hover {
+    translate: 0 0;
+}

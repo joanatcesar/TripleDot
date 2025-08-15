@@ -1,0 +1,80 @@
+.slide-toggle__input {
+    background-color: var(--BackgroundOff);
+    max-width: none;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    overflow: visible;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-right-color: var(--BorderOff);
+    border-top-color: var(--BorderOff);
+    border-bottom-color: var(--BorderOff);
+    max-height: none;
+    margin-top: 2px;
+    border-left-color: var(--BorderOff);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    padding-bottom: 16px;
+    flex-grow: 1;
+    width: 250px;
+    height: 160px;
+    --BackgroundOff: rgb(24, 88, 168);
+    --BackgroundOn: rgb(138, 230, 15);
+    --BorderOn: rgb(0, 0, 0);
+    --BorderOff: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+
+.slide-toggle__input-knob {
+    height: 160px;
+    width: 160px;
+    background-color: var(--KnobOff);
+    position: absolute;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    top: 0;
+    transition-property: translate, background-color;
+    transition-duration: 0.5s, 0.5s;
+    translate: -10px 0;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-color: rgba(100, 100, 100, 0.39);
+    border-right-color: rgba(100, 100, 100, 0.39);
+    border-top-color: rgba(100, 100, 100, 0.39);
+    border-bottom-color: rgba(100, 100, 100, 0.39);
+    overflow: visible;
+    flex-grow: 1;
+    --KnobOn: rgb(251, 255, 255);
+    --KnobOff: rgb(251, 255, 255);
+}
+
+.slide-toggle__input--checked {
+    background-color: var(--BackgroundOn);
+}
+
+.slide-toggle__input--checked > .slide-toggle__input-knob {
+    translate: 100px 0;
+}
+
+.slide-toggle:focus .slide-toggle__input-knob {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: var(--unity-colors-input_field-border-focus);
+    border-right-color: var(--unity-colors-input_field-border-focus);
+    border-top-color: var(--unity-colors-input_field-border-focus);
+    border-bottom-color: var(--unity-colors-input_field-border-focus);
+}

@@ -1,0 +1,242 @@
+.blackScreen {
+    background-image: url("project://database/Assets/UI/_black.png?fileID=-6773478791603147661&guid=909895c5504c14d499ea04a336c9f145&type=3#_black_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.settingsBox {
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    right: 50px;
+    bottom: 750px;
+    padding: 30px;
+    background-image: url("project://database/Assets/UI/_Rectangle-2.png?fileID=21300000&guid=0ffb0e9c3d5142648a180b6563a7a353&type=3#_Rectangle-2");
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.header {
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("project://database/Assets/UI/_Rectangle-2-copy-2.png?fileID=-6909546056155006775&guid=af1fc91c650bed84288786914e0fe3f4&type=3#_Rectangle-2-copy-2_0");
+    background-position-y: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+
+.TitleText {
+    font-size: 220px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgba(31, 31, 55, 0.57);
+    -unity-text-outline-width: 10px;
+    text-shadow: 3px 6px 5px rgba(0, 0, 0, 0.39);
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Yorkie-SemiBold.ttf?fileID=12800000&guid=eb3384745beb14c4c9eb35964b0b7afe&type=3#Yorkie-SemiBold");
+    letter-spacing: -5px;
+    margin-left: 20px;
+    -unity-text-align: upper-center;
+    margin-top: 90px;
+}
+
+.contentBox {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    right: 20px;
+    bottom: 450px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("project://database/Assets/UI/_Rectangle-3.png?fileID=1402954836425177095&guid=892ae5a55ec8af54d81b0df318b70f9d&type=3#_Rectangle-3_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+
+.contentContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 220px;
+    margin: 10px 0;
+    padding: 0;
+    position: relative;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.contentIcon {
+    width: 180px;
+    height: 180px;
+    background-size: contain;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.soundIcon {
+    background-image: url("project://database/Assets/UI/icn_sound.png?fileID=2800000&guid=522cf5ba4f385e74e9320cdcef9197ef&type=3#icn_sound");
+}
+
+.musicIcon {
+    background-image: url("project://database/Assets/UI/icn_music.png?fileID=2800000&guid=8fad0db2c1188b44e8ff27c0b19b4b85&type=3#icn_music");
+}
+
+.vibrationIcon {
+    background-image: url("project://database/Assets/UI/icn_vibration.png?fileID=2800000&guid=1d3f062b3c7b9b6488d253645b08de8d&type=3#icn_vibration");
+}
+
+.notificationIcon {
+    background-image: url("project://database/Assets/UI/_icn_notif.png?fileID=-7238048374281038490&guid=880624834276dc04aa543db1612e6d75&type=3#_icn_notif_0");
+}
+
+.languageIcon {
+    background-image: url("project://database/Assets/UI/_UK_US.png?fileID=6634576997971155594&guid=c68b17e6eec48cf4b961373333c596e4&type=3#_UK_US_0");
+}
+
+.contentText {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(31, 31, 55);
+    -unity-text-outline-width: 8px;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.39);
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+    letter-spacing: -4px;
+    margin-left: 100px;
+    flex-grow: 1;
+}
+
+.toggleButton {
+    width: 145px;
+    height: 90px;
+    position: absolute;
+    top: 30px;
+    right: 140px;
+}
+
+.contentDivider {
+    height: 10px;
+    margin: 10px 0;
+    background-image: url("project://database/Assets/UI/_divider.png?fileID=2725667923175964883&guid=06d8955ebe46b9a47ae1a1613dca5f06&type=3#_divider_0");
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("project://database/Assets/UI/_Rectangle-2-copy-4.png?fileID=705081714262086179&guid=c7381f69ee542084a994873498169729&type=3#_Rectangle-2-copy-4_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    top: auto;
+    left: 0;
+    right: 0;
+}
+
+.supportButton {
+    width: 100%;
+    height: 300px;
+    background-image: url("project://database/Assets/UI/_Rectangle-7.png?fileID=4130296200405529483&guid=31b8706ff4c643b4d99159cd1b491473&type=3#_Rectangle-7_0");
+    -unity-background-scale-mode: scale-to-fit;
+    font-size: 180px;
+    color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+    -unity-text-align: upper-center;
+    -unity-text-outline-width: 10px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.39);
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.39);
+    letter-spacing: -6px;
+    -unity-font-style: bold;
+}
+
+.settingsButton {
+    width: 500px;
+    height: 200px;
+    background-image: url("project://database/Assets/UI/_Rectangle-4-copy.png?fileID=-1500791171311278953&guid=5c8d7de59cc92064da5d1d28fda4c7c1&type=3#_Rectangle-4-copy_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: row;
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+    -unity-text-outline-width: 8px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.39);
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.39);
+    -unity-text-align: middle-center;
+}
+
+.settingsButton:hover {
+    margin: 0 5px;
+    -unity-background-image-tint-color: rgb(199, 199, 199);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.versionLabel {
+    font-size: 60px;
+    color: rgb(25, 25, 112);
+    -unity-font-definition: url("project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&guid=5b0caedb56d1b774ea9d6c8f69fe1c54&type=3#Lato-Black");
+}
+
+.closeButton {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-image: url("project://database/Assets/UI/_X.png?fileID=2800000&guid=f144d71936f8a8d429ba33a08f221c55&type=3#_X");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.footerBottom {
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.supportButton:hover {
+    -unity-background-image-tint-color: rgb(127, 255, 0);
+}

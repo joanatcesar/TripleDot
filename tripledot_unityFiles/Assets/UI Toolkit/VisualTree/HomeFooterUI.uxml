@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/HomeFooter.uss?fileID=7433441132597879392&amp;guid=f1c529444f0018e40b672cf6e43e3d0f&amp;type=3#HomeFooter" />
+    <ui:VisualElement name="fade" class="footerElement">
+        <ui:VisualElement name="footer" class="footer">
+            <ui:Button icon-image="project://database/Assets/UI/homepage/lock_icon.png?fileID=2800000&amp;guid=775c515e9357aec41af35ac78ab6f462&amp;type=3#lock_icon" enabled="false" name="locked" class="footerButton" />
+            <ui:Button icon-image="project://database/Assets/UI/homepage/shop_icon.png?fileID=-3231263632139094836&amp;guid=1043440ca8704424f81afe912d5104bc&amp;type=3#shop_icon_0" enable-rich-text="true" emoji-fallback-support="true" text="Shop" name="shop" class="footerButton" style="flex-shrink: 1;" />
+            <ui:Button text="Home" icon-image="project://database/Assets/UI/homepage/home-icn.png?fileID=8351716620314418481&amp;guid=da6553ccc5481a34dbbd4f4d83e9c1b6&amp;type=3#home-icn_0" enable-rich-text="true" emoji-fallback-support="true" name="home" selectable="false" class="footerButton" style="flex-shrink: 1;" />
+            <ui:Button icon-image="project://database/Assets/UI/homepage/map_icon.png?fileID=-1104938260738534510&amp;guid=abc46e3b41bc8f94dac7f675db05ee28&amp;type=3#map_icon_0" enable-rich-text="true" emoji-fallback-support="true" name="map" text="Map" focusable="true" class="footerButton" style="flex-shrink: 1;" />
+            <ui:Button enable-rich-text="true" emoji-fallback-support="true" name="locked" double-click-selects-word="false" enabled="false" focusable="false" icon-image="project://database/Assets/UI/homepage/lock_icon.png?fileID=2800000&amp;guid=775c515e9357aec41af35ac78ab6f462&amp;type=3#lock_icon" text="Locked" parse-escape-sequences="false" class="footerButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

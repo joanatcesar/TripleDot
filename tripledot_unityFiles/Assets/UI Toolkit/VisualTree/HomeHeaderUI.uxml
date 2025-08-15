@@ -1,0 +1,24 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/HomeHeader.uss?fileID=7433441132597879392&amp;guid=1fab18a8c0bf6eb49a6d3f8f4e2bafe2&amp;type=3#HomeHeader" />
+    <ui:VisualElement name="header" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-evenly; align-self: center; align-content: flex-start; flex-shrink: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 0%; margin-top: 80px; position: absolute; top: 0; left: 0; right: 0; bottom: auto; background-size: 100% 100%; height: 150px;">
+        <ui:VisualElement name="CoinContainer" class="currencyContainer">
+            <ui:VisualElement name="coin" class="currencyIcon" style="background-image: url(&quot;project://database/Assets/UI/homepage/coins.png?fileID=2800000&amp;guid=485b9c1c155c2a544ae0f39a36b93a05&amp;type=3#coins&quot;); background-size: contain; -unity-background-scale-mode: scale-to-fit;">
+                <ui:VisualElement name="elipse_green" style="background-image: url(&quot;project://database/Assets/UI/homepage/Ellipse_green.png?fileID=2800000&amp;guid=e132cc4517f48f74dad9c4971b201126&amp;type=3#Ellipse_green&quot;); -unity-background-scale-mode: scale-to-fit; bottom: -50px; right: -70px; width: 100px;">
+                    <ui:VisualElement name="plus" style="background-image: url(&quot;project://database/Assets/UI/homepage/plus_icon.png?fileID=-4194105887050900015&amp;guid=0fd3d8743e48b714ca2fac835af21cee&amp;type=3#plus_icon_0&quot;); -unity-background-scale-mode: scale-to-fit; background-position-y: center 0; background-position-x: center 0; position: relative; top: auto; left: auto; align-items: center; align-content: auto; justify-content: center; align-self: center; flex-direction: row; bottom: auto; flex-grow: 1; padding-top: 32px; padding-right: 32px; padding-bottom: 32px; padding-left: 32px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label text="2,850" class="currencyValue" />
+        </ui:VisualElement>
+        <ui:VisualElement name="HeartContainer" class="currencyContainer">
+            <ui:VisualElement name="heart" class="currencyIcon" style="background-image: url(&quot;project://database/Assets/UI/homepage/heart.png?fileID=2800000&amp;guid=4f2a0cf5dea4dec44bfc3a158e231a72&amp;type=3#heart&quot;);">
+                <ui:Label text="5" triple-click-selects-line="false" name="Label" style="-unity-text-align: middle-center; position: relative; top: 0; left: auto; align-items: stretch; align-content: center; color: rgb(255, 250, 250); font-size: 102%; align-self: center; justify-content: center; white-space: nowrap; -unity-text-outline-color: rgb(109, 0, 0); -unity-text-outline-width: 7px; padding-left: 0; margin-left: 0; margin-bottom: 0; -unity-font-style: bold; flex-shrink: 1; flex-grow: 1; padding-top: 0; padding-right: 0; padding-bottom: 0; margin-top: 0; margin-right: 0; -unity-font-definition: url(&quot;project://database/Assets/resources/fonts/Lato-Black.ttf?fileID=12800000&amp;guid=5b0caedb56d1b774ea9d6c8f69fe1c54&amp;type=3#Lato-Black&quot;);" />
+            </ui:VisualElement>
+            <ui:Label text="Full" class="currencyValue" />
+        </ui:VisualElement>
+        <ui:VisualElement name="StarContainer" class="currencyContainer">
+            <ui:VisualElement name="star" class="currencyIcon" style="background-image: url(&quot;project://database/Assets/UI/homepage/star.png?fileID=2800000&amp;guid=7529059a2c012304da8ffaf1646b1c88&amp;type=3#star&quot;);" />
+            <ui:Label text="165" selectable="true" class="currencyValue" />
+        </ui:VisualElement>
+        <ui:Button icon-image="project://database/Assets/UI/homepage/settings_icon.png?fileID=-4852613496269684587&amp;guid=001ae03dbac4cda4788b42c3bc6cab5a&amp;type=3#settings_icon_0" emoji-fallback-support="false" enable-rich-text="false" triple-click-selects-line="false" double-click-selects-word="false" name="settingsButton" class="SettingsButton" />
+    </ui:VisualElement>
+</ui:UXML>
